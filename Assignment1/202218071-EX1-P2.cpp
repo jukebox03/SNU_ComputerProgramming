@@ -23,7 +23,7 @@ public:
             this->price+=8500;
         else if(meat.compare("turkey")==0)
             this->price+=9000;
-        cout<<"price : "<<price<<"¿ø"<<endl;
+        cout<<"price : "<<price<<"ì›"<<endl;
     }
 };
 
@@ -40,14 +40,14 @@ public:
             this->price+=7500*sizeOfSandwich;
         else if(meat.compare("turkey")==0)
             this->price+=8000*sizeOfSandwich;
-        cout<<"price : "<<price<<"¿ø"<<endl;
+        cout<<"price : "<<price<<"ì›"<<endl;
     }
 };
 
 int main()
 {
     int num;
-    cout<<"»ø·¯µå ÁÖ¹®Àº 1, »÷µåÀ§Å° ÁÖ¹®Àº 2"<<endl;
+    cout<<"ìƒëŸ¬ë“œ ì£¼ë¬¸ì€ 1, ìƒŒë“œìœ„í‚¤ ì£¼ë¬¸ì€ 2"<<endl;
     cin>>num;
     if(num==1){
         Salad salad1("chicken");
